@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lectur.Site</title>
+    <base href="/" />
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link href="Lectur.Site.styles.css" rel="stylesheet" />
+    <link href="manifest.webmanifest" rel="manifest" />
+    <link rel="apple-touch-icon" sizes="512x512" href="icon-512.png" />
+    <link rel="apple-touch-icon" sizes="192x192" href="icon-192.png" />
+    <script async defer src="https://apis.google.com/js/api.js" onload="gapiLoaded()"></script>
+    <script async defer src="https://accounts.google.com/gsi/client" onload="gisLoaded()"></script>
+</head>
+
+<body>
+    <div id="app">
+        <svg class="loading-progress">
+            <circle r="40%" cx="50%" cy="50%" />
+            <circle r="40%" cx="50%" cy="50%" />
+        </svg>
+        <div class="loading-progress-text"></div>
+    </div>
+
+    <div id="blazor-error-ui">
+        An unhandled error has occurred.
+        <a href="." class="reload">Reload</a>
+        <span class="dismiss">🗙</span>
+    </div>
+    <script src="_framework/blazor.webassembly.js"></script>
+    <script>
+        window.localStorageHelper = {
+            setItem: function (key, value) {
+                localStorage.setItem(key, value);
+            },
+            getItem: function (key) {
+                return localStorage.getItem(key);
+            },
+            removeItem: function (key) {
+                localStorage.removeItem(key);
+            },
+            clear: function () {
+                localStorage.clear();
+            }
+        };
+    </script>
+    <script>navigator.serviceWorker.register('service-worker.js');</script>
+    <script>
+        var googlePickerInterop = {
+            // Function to be called from C# to load the Google Picker
+            loadPicker: function (accessToken, developerKey, appId) {
+                return new Promise((resolve, reject) => {
+                    if (typeof google === 'undefined' || typeof google.picker === 'undefined') {
+                        reject("Google Picker API not loaded.");
+                        return;
+                    }
+
+                    var view = new google.picker.View(google.picker.ViewId.DOCS);
+                    view.setMimeTypes("application/pdf,application/vnd.google-apps.presentation,application/vnd.openxmlformats-officedocument.presentationml.presentation"); // Example: Filter for images and PDFs
+
+                    var picker = new google.picker.PickerBuilder()
+                        .setAppId(appId) // Your Cloud Project Number (from Google Cloud Console)
+                        .setOAuthToken(accessToken)
+                        .setDeveloperKey(developerKey) // Optional, but good practice
+                        .addView(view)
+                        .setCallback(function (data) {
+                            if (data.action == google.picker.Action.PICKED) {
+                                var doc = data.docs[0];
+                                resolve({
+                                    id: doc.id,
+                                    name: doc.name,
+                                    url: doc.url,
+                                    // Add other relevant properties
+                                });
+                            } else if (data.action == google.picker.Action.CANCEL) {
+                                resolve(null); // User cancelled
+                            }
+                        })
+                        .build();
+                    picker.setVisible(true);
+                });
+            }
+        };
+
+        // Expose the interop object globally
+        window.googlePickerInterop = googlePickerInterop;
+
+        // Call from Blazor to initialize the GAPI (if needed for other Google APIs)
+        window.gapiLoaded = function () {
+            console.log("GAPI client loaded for API.");
+            // You might need to call gapi.load('picker') here or within your C# interop
+            gapi.load('picker', () => {
+                console.log("Google Picker library loaded.");
+            });
+        };
+
+        window.gisLoaded = function () {
+            console.log("GIS client loaded for authentication.");
+        };
+
+    </script>
+</body>
+
+</html>
