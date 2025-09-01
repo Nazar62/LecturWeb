@@ -156,6 +156,7 @@ details[open] p {
 }
 .make-lesson input {
     width: 50dvw;
+    margin-top: 0.5rem;
 }
 .make-lesson textarea {
     background-color: var(--theme-color-oposite-30);
@@ -185,6 +186,8 @@ details[open] p {
     background-color: gray;
 }
 .make-lesson .label-button {
+    display: block;
+    margin: 0 auto;
     margin-top: 0.3rem;
     width: 50dvw;
     text-align: center;
@@ -408,6 +411,12 @@ details[open] p {
     text-align: center;
 }
 
+.optionsButtonContainer {
+    display: flex;          /* Enables flexbox layout */
+    flex-wrap: wrap;        /* Allows buttons to wrap to next row if needed */
+    gap: 0.5rem;
+}
+
 
 
 
@@ -499,6 +508,9 @@ details[open] p {
         margin-left: calc(calc(var(--bs-gutter-x) * .5 * -1) - 1.5rem);
         display: flex;
         justify-content: center;
+    }
+    .optionsButtonContainer {
+        display: block;
     }
 }
 

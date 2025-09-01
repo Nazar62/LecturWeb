@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Lectur.Site",
   "resources": {
-    "hash": "sha256-ZpERKvvwdhaqMzzxh3rPKBVxJ1W8YGOziDINl8YWst0=",
+    "hash": "sha256-rR+9Tu6fqzyfSsD8sdyxT38qjiEWrWGeeb67M1o3EKQ=",
     "fingerprinting": {
       "Aliencube.YouTubeSubtitlesExtractor.lsx4sew4cm.wasm": "Aliencube.YouTubeSubtitlesExtractor.wasm",
       "AngleSharp.up7648hgwu.wasm": "AngleSharp.wasm",
@@ -211,7 +211,7 @@
       "mscorlib.qiu3j3msqk.wasm": "mscorlib.wasm",
       "netstandard.lp03u0xxi4.wasm": "netstandard.wasm",
       "System.Private.CoreLib.9ecf2cskpd.wasm": "System.Private.CoreLib.wasm",
-      "Lectur.Site.ur74cml9uw.wasm": "Lectur.Site.wasm",
+      "Lectur.Site.v5gez21qj0.wasm": "Lectur.Site.wasm",
       "dotnet.js": "dotnet.js",
       "dotnet.native.50iqa8w3ys.js": "dotnet.native.js",
       "dotnet.native.pk43x8e436.wasm": "dotnet.native.wasm",
@@ -445,7 +445,7 @@
       "WindowsBase.361km0836k.wasm": "sha256-FacUCEIJYTnbOWgX/R9QP2QnurqRZwRIkDAH0N9z69s=",
       "mscorlib.qiu3j3msqk.wasm": "sha256-QvztpxTOEw4aMIl7zP3QtsPLNv/IWaK5wq22J4ReGrA=",
       "netstandard.lp03u0xxi4.wasm": "sha256-WVQsxULiAiEbyXLKolS7txnWVT82SsvsuMe4jJ+SqqI=",
-      "Lectur.Site.ur74cml9uw.wasm": "sha256-WjQLb9YVx61Npwuvdi5fwZvuajtYV1r3zzR6sc6HAUA="
+      "Lectur.Site.v5gez21qj0.wasm": "sha256-UyQVPSSKeXNQnYY0Kht/Io2RWpKl0OpQrZwKEBWaX1M="
     }
   },
   "cacheBootResources": true,
