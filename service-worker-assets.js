@@ -21,8 +21,8 @@
       "url": "_framework\/BouncyCastle.Cryptography.4gsqqg4tak.wasm"
     },
     {
-      "hash": "sha256-\/t+xC3rcuclSEtMWffhTtMlV\/Smb+T0Bxnu7ZolG36o=",
-      "url": "_framework\/Lectur.Site.2jpri95zjo.wasm"
+      "hash": "sha256-maWeLPw7rwwjuAD4XQTN8IvUCnI\/Np0pYa6e5k4ksHo=",
+      "url": "_framework\/Lectur.Site.9kw7xtndrm.wasm"
     },
     {
       "hash": "sha256-oTpMcq6\/gLYfpcpvvkjbcsRcdIZGZzyngaTCa7SJ4Ks=",
@@ -829,7 +829,7 @@
       "url": "_framework\/YoutubeTranscriptApi.ighbss29g4.wasm"
     },
     {
-      "hash": "sha256-c7YQtv6XJMmbqm7zkXLBA\/10yy1P1aYJzmLx0v5J7\/M=",
+      "hash": "sha256-UqlbJbS0kpoAZJS8LXdJmG2va7J0\/UiYknDui5b8yNQ=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -1085,5 +1085,5 @@
       "url": "sample-data\/weather.json"
     }
   ],
-  "version": "e14dlS+L"
+  "version": "LfIhTEEe"
 };
