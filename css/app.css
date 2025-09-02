@@ -21,6 +21,16 @@
     transition: width 0.8s;
     width: 68dvw;
 }
+.lesson .content.center {
+    position: relative;
+    padding: 1rem;
+    background-color: var(--theme-color-oposite-30);
+    border-radius: 2rem;
+    transition: width 0.8s;
+    width: 90dvw;
+    margin-right: calc(calc(var(--bs-gutter-x) * .5 * -1));
+    margin-left: calc(calc(var(--bs-gutter-x) * .5 * -1));
+}
 .lesson .content h1 {
     text-align: center;
 }
