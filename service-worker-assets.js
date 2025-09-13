@@ -5,14 +5,6 @@
       "url": "Lectur.Site.styles.css"
     },
     {
-      "hash": "sha256-6+cqjPBvvNvjju\/dR0myA9rVBeZD6uJ\/cya5VPBbVp0=",
-      "url": "_framework\/Aliencube.YouTubeSubtitlesExtractor.lsx4sew4cm.wasm"
-    },
-    {
-      "hash": "sha256-kiD87S\/tghFUydyHWNfGo1G3AnugOsqK5Y55LSHS43w=",
-      "url": "_framework\/AngleSharp.up7648hgwu.wasm"
-    },
-    {
       "hash": "sha256-OaMAAd5n7ORfyur5e3QIyEVKJ76MKIvwbg7\/icnnYcU=",
       "url": "_framework\/Blazored.LocalStorage.12n6dz54qr.wasm"
     },
@@ -21,8 +13,8 @@
       "url": "_framework\/BouncyCastle.Cryptography.4gsqqg4tak.wasm"
     },
     {
-      "hash": "sha256-HoVyKkwIJ\/fyoWRsIPuxPCz1KXhOpIqhnie78Gbm5L8=",
-      "url": "_framework\/Lectur.Site.i409qibirf.wasm"
+      "hash": "sha256-fxlKQVIpsuBpyZGrykTWwJo\/UbMj87V6ATh\/mLKgTdM=",
+      "url": "_framework\/Lectur.Site.3n87quuyjc.wasm"
     },
     {
       "hash": "sha256-oTpMcq6\/gLYfpcpvvkjbcsRcdIZGZzyngaTCa7SJ4Ks=",
@@ -821,15 +813,7 @@
       "url": "_framework\/WindowsBase.361km0836k.wasm"
     },
     {
-      "hash": "sha256-4RMIaLCQNT10eRY3+lwpxvrVnOVs3t3kuESCTAl7xsY=",
-      "url": "_framework\/YoutubeExplode.x4vlrae9rj.wasm"
-    },
-    {
-      "hash": "sha256-3uZR73aHGg6UGLwKQFVxat8iVUx2wz6+ITWDegM8qRU=",
-      "url": "_framework\/YoutubeTranscriptApi.ighbss29g4.wasm"
-    },
-    {
-      "hash": "sha256-co3DT5aiqR+C73yQttx\/fiJPnmqoV+vNc7MMC\/Lw8Ns=",
+      "hash": "sha256-nYB7uHNKlQuzEUVa2PNhAfauNJnPUZXVb+8sNzHN6fM=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -881,7 +865,7 @@
       "url": "appSettings.json"
     },
     {
-      "hash": "sha256-mZL0ZuV\/WsrNsjJdhJjnME+OSx1cNoPgNIwk+3WSq+o=",
+      "hash": "sha256-ntqq9jM4\/23E3TJ40W9AZHhWCvb+qT1JwlD3E0xPl1s=",
       "url": "css\/app.css"
     },
     {
@@ -1085,5 +1069,5 @@
       "url": "sample-data\/weather.json"
     }
   ],
-  "version": "Ua74qEx4"
+  "version": "IU28gO\/c"
 };

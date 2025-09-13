@@ -161,6 +161,14 @@ details[open] p {
     padding: 0.5rem 0;
     border-radius: 1rem;
 }
+.sign-in button:not(.gsi-material-button):disabled {
+    background-color: gray;
+    border: none;
+    margin: 1rem;
+    color: var(--font-color);
+    padding: 0.5rem 0;
+    border-radius: 1rem;
+}
 
 .make-lesson {
     display: flex;
