@@ -1,7 +1,7 @@
 {
-  "mainAssemblyName": "Lectur.Site",
+  "mainAssemblyName": "Lectur",
   "resources": {
-    "hash": "sha256-MOqfWn9qmtUzq5OWsHcDVvXjSA//VzYM2mzxisW2Tjw=",
+    "hash": "sha256-WdUmkbrNGAcvWKfOsrCfuyCZJbiTj102VXVidjEvSJM=",
     "fingerprinting": {
       "Blazored.LocalStorage.12n6dz54qr.wasm": "Blazored.LocalStorage.wasm",
       "BouncyCastle.Cryptography.4gsqqg4tak.wasm": "BouncyCastle.Cryptography.wasm",
@@ -207,23 +207,23 @@
       "mscorlib.qiu3j3msqk.wasm": "mscorlib.wasm",
       "netstandard.lp03u0xxi4.wasm": "netstandard.wasm",
       "System.Private.CoreLib.9ecf2cskpd.wasm": "System.Private.CoreLib.wasm",
-      "Lectur.Site.3n87quuyjc.wasm": "Lectur.Site.wasm",
+      "Lectur.eft6zku200.wasm": "Lectur.wasm",
       "dotnet.js": "dotnet.js",
-      "dotnet.native.50iqa8w3ys.js": "dotnet.native.js",
-      "dotnet.native.pk43x8e436.wasm": "dotnet.native.wasm",
-      "dotnet.runtime.ew19f13umk.js": "dotnet.runtime.js",
+      "dotnet.native.9ih887ebfz.js": "dotnet.native.js",
+      "dotnet.native.21mns4qp4i.wasm": "dotnet.native.wasm",
+      "dotnet.runtime.st3wwc8rqy.js": "dotnet.runtime.js",
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
       "icudt_EFIGS.tptq2av103.dat": "icudt_EFIGS.dat",
       "icudt_no_CJK.lfu7j35m59.dat": "icudt_no_CJK.dat"
     },
     "jsModuleNative": {
-      "dotnet.native.50iqa8w3ys.js": "sha256-pQdXuxfVeqYHOwd5HUM2ERd7OnXirj9JTF37b6OdTAc="
+      "dotnet.native.9ih887ebfz.js": "sha256-oS7IRiQoVt9ThQ7Y2UM3XoeY0JqPD02cg9IvRdufn2w="
     },
     "jsModuleRuntime": {
-      "dotnet.runtime.ew19f13umk.js": "sha256-Isv/63htfX73xgn3/2cZMtk4S8xBcbmlXRgJMDv4mhI="
+      "dotnet.runtime.st3wwc8rqy.js": "sha256-oBRKHAqZUsvCRnCzkQfB7zc45cpKLNq2NKyrG10IKx8="
     },
     "wasmNative": {
-      "dotnet.native.pk43x8e436.wasm": "sha256-6fprjjfQGsopiMetOMnTFT7N83KgQiUia8r8F1s/HUI="
+      "dotnet.native.21mns4qp4i.wasm": "sha256-RtuwNrUOdAJ5A4aS4ZmceO4ySriaYqTdC7X++6yd9lM="
     },
     "icu": {
       "icudt_CJK.tjcz0u77k5.dat": "sha256-SZLtQnRc0JkwqHab0VUVP7T3uBPSeYzxzDnpxPpUnHk=",
@@ -437,7 +437,7 @@
       "WindowsBase.361km0836k.wasm": "sha256-FacUCEIJYTnbOWgX/R9QP2QnurqRZwRIkDAH0N9z69s=",
       "mscorlib.qiu3j3msqk.wasm": "sha256-QvztpxTOEw4aMIl7zP3QtsPLNv/IWaK5wq22J4ReGrA=",
       "netstandard.lp03u0xxi4.wasm": "sha256-WVQsxULiAiEbyXLKolS7txnWVT82SsvsuMe4jJ+SqqI=",
-      "Lectur.Site.3n87quuyjc.wasm": "sha256-fxlKQVIpsuBpyZGrykTWwJo/UbMj87V6ATh/mLKgTdM="
+      "Lectur.eft6zku200.wasm": "sha256-hvLUqpEa4VDutXoMVFC2rfydHhlLqHRjAfNWjypSh7k="
     }
   },
   "cacheBootResources": true,
