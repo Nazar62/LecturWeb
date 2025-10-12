@@ -429,6 +429,25 @@ details {
     gap: 0.5rem;
 }
 
+.label-checkbox {
+    width: 50dvw;
+}
+input[type="checkbox"] {
+    width: auto;
+}
+.label-checkbox-container {
+    /*display: inline;*/
+    /*display: flex;*/
+    padding: 0.5rem;
+    background-color: var(--theme-color-oposite-30);
+    margin-top: 0.5rem;
+    width: 50dvw;
+    justify-content: center;
+    text-align: center;
+    border-radius: 0.5rem;
+    /*margin-top: 1rem;*/
+}
+
 
 
 
@@ -523,6 +542,13 @@ details {
     }
     .optionsButtonContainer {
         display: block;
+    }
+    .label-checkbox-container {
+        display: block;
+        width: 70dvw;
+    }
+    input[type="checkbox"] {
+        width: auto;
     }
 }
 
