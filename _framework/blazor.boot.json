@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Lectur",
   "resources": {
-    "hash": "sha256-PAyn/pq5b9w6nsbdwM0Cih5phlTRvWlh7whmW3y4Voo=",
+    "hash": "sha256-4ErGfsinqm3RML/nrwQ3+KEf5jIlzthrRqL48N9LRLE=",
     "fingerprinting": {
       "Blazored.LocalStorage.12n6dz54qr.wasm": "Blazored.LocalStorage.wasm",
       "BouncyCastle.Cryptography.4gsqqg4tak.wasm": "BouncyCastle.Cryptography.wasm",
@@ -207,7 +207,7 @@
       "mscorlib.k5iaovx9v7.wasm": "mscorlib.wasm",
       "netstandard.6sr1qvn64m.wasm": "netstandard.wasm",
       "System.Private.CoreLib.tn7ijpxcub.wasm": "System.Private.CoreLib.wasm",
-      "Lectur.0ql228k5bo.wasm": "Lectur.wasm",
+      "Lectur.u8w5xemmjk.wasm": "Lectur.wasm",
       "dotnet.js": "dotnet.js",
       "dotnet.native.l4ptthxatg.js": "dotnet.native.js",
       "dotnet.native.d2w7colv7e.wasm": "dotnet.native.wasm",
@@ -437,7 +437,7 @@
       "WindowsBase.ahs9krftg4.wasm": "sha256-bgi2FHdT0ABsUP1yKQQ2AP8qfo1V/bS/4cJFE4OUHX8=",
       "mscorlib.k5iaovx9v7.wasm": "sha256-mEFLDERlY1HMNQHzh68xOPawXvI48O1fHW9PbfXugb4=",
       "netstandard.6sr1qvn64m.wasm": "sha256-Gpf+qEqCYaCB6zqI5sNPIurnfpwRtfcWksgf3CW6mHE=",
-      "Lectur.0ql228k5bo.wasm": "sha256-iEOGYu4siXbxbDiRmGEvEUWH4Tya+o0abYz0d/Hn+A0="
+      "Lectur.u8w5xemmjk.wasm": "sha256-gjQB5w5Wmb2oUVCj/XV6tLS3BpPpLDRWs+EBAcEIIvE="
     }
   },
   "cacheBootResources": true,

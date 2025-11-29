@@ -494,6 +494,9 @@ input[type="radio"] {
     justify-content: start;
     text-align: start;
 }
+.take-test .content{
+    width: 50dvw;
+}
 
 
 
@@ -518,6 +521,7 @@ input[type="radio"] {
         width: 70dvw;
         height: 35dvh;
     }
+    
     .ai-sidebar {
         position: relative;
         /*margin-left: -1.5rem;*/
@@ -594,6 +598,9 @@ input[type="radio"] {
         width: 70dvw;
     }
     input[type="checkbox"] {
+        width: auto;
+    }
+    input[type="radio"] {
         width: auto;
     }
     .answers input {

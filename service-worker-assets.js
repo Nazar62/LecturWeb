@@ -13,8 +13,8 @@
       "url": "_framework\/BouncyCastle.Cryptography.4gsqqg4tak.wasm"
     },
     {
-      "hash": "sha256-iEOGYu4siXbxbDiRmGEvEUWH4Tya+o0abYz0d\/Hn+A0=",
-      "url": "_framework\/Lectur.0ql228k5bo.wasm"
+      "hash": "sha256-gjQB5w5Wmb2oUVCj\/XV6tLS3BpPpLDRWs+EBAcEIIvE=",
+      "url": "_framework\/Lectur.u8w5xemmjk.wasm"
     },
     {
       "hash": "sha256-oTpMcq6\/gLYfpcpvvkjbcsRcdIZGZzyngaTCa7SJ4Ks=",
@@ -813,7 +813,7 @@
       "url": "_framework\/WindowsBase.ahs9krftg4.wasm"
     },
     {
-      "hash": "sha256-TTSmdMtSOKX\/E\/zsKnOzd\/nxCdmpBeRmYU8GQh+ieyE=",
+      "hash": "sha256-5TN1MNKK5CVMWIsIfB43VmMOPBKqF5xIaNSFR8MNiYw=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -865,7 +865,7 @@
       "url": "appSettings.json"
     },
     {
-      "hash": "sha256-T3b8WEnsVkhYGDYmxMZRwsGgEw\/NfyRy1ZrZALehNoI=",
+      "hash": "sha256-ozGyhoFYuXsUuMqEZAoWIWlOuxvMBz9ehHDlLWU5rpo=",
       "url": "css\/app.css"
     },
     {
@@ -1069,5 +1069,5 @@
       "url": "sample-data\/weather.json"
     }
   ],
-  "version": "TzrPq0lp"
+  "version": "Od8+v7MT"
 };
