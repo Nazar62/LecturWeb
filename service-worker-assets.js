@@ -5,6 +5,26 @@
       "url": "Lectur.styles.css"
     },
     {
+      "hash": "sha256-aRoYbv\/IhlRgClAex8xGQ+BsILsPIQS0kEmzbsqO974=",
+      "url": "_content\/FFmpegBlazor\/0.10.0\/dist\/ffmpeg-core.js"
+    },
+    {
+      "hash": "sha256-Q2sPZKnhGI6SdSJmex92yLHolerhj9tM1wh6+MkUKDE=",
+      "url": "_content\/FFmpegBlazor\/0.10.0\/dist\/ffmpeg-core.wasm"
+    },
+    {
+      "hash": "sha256-u2oN9Aoja1pogdRhbgOE3Knv6F4qzp20kpcG6JaD+fw=",
+      "url": "_content\/FFmpegBlazor\/0.10.0\/dist\/ffmpeg-core.worker.js"
+    },
+    {
+      "hash": "sha256-SrOZawWqInxkzltzkWsLpGhFH7RwbYLphhL+hRJ267Q=",
+      "url": "_content\/FFmpegBlazor\/0.10.0\/ffmpeg.min.js"
+    },
+    {
+      "hash": "sha256-6zYV4mSIMjf898WXa1p0G9APHJKu0\/v42jBVwJvfK1c=",
+      "url": "_content\/FFmpegBlazor\/blazorFfmpeg.js"
+    },
+    {
       "hash": "sha256-OaMAAd5n7ORfyur5e3QIyEVKJ76MKIvwbg7\/icnnYcU=",
       "url": "_framework\/Blazored.LocalStorage.12n6dz54qr.wasm"
     },
@@ -13,8 +33,12 @@
       "url": "_framework\/BouncyCastle.Cryptography.4gsqqg4tak.wasm"
     },
     {
-      "hash": "sha256-mEYmpXDPuMsHYivAO2mam\/aCo4LQ8hBHdnO5JMfbNWY=",
-      "url": "_framework\/Lectur.g244p4dhis.wasm"
+      "hash": "sha256-4h+Tp2dqv+Xh7QZ2AbhsyckgsYoMJBq7Tvvi0dTt3hI=",
+      "url": "_framework\/FFmpegBlazor.axv6ltb623.wasm"
+    },
+    {
+      "hash": "sha256-hS7dnR1KYk6bROoWxsWp7VCAkpQBD6QttsmRjJJOFq4=",
+      "url": "_framework\/Lectur.ro8azxixui.wasm"
     },
     {
       "hash": "sha256-oTpMcq6\/gLYfpcpvvkjbcsRcdIZGZzyngaTCa7SJ4Ks=",
@@ -813,7 +837,7 @@
       "url": "_framework\/WindowsBase.ahs9krftg4.wasm"
     },
     {
-      "hash": "sha256-rpsa\/eiUNBPDbG7HU4CDHKSqi5Mgbuo5fEEWGp3AsLQ=",
+      "hash": "sha256-Kjdw1RsA0N+xPGM3sY9mtK84PKpUPVYQ8AIPg\/Zp92k=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -881,8 +905,12 @@
       "url": "icon-512.png"
     },
     {
-      "hash": "sha256-EaY1KqVmUCW3goRZmhSxBFMWllw7QW+Hpoc6x1Dx6EM=",
+      "hash": "sha256-5wQ460WWYKevUu9fLY+M7eBmhove7Cu\/qEzcMxWOCak=",
       "url": "index.html"
+    },
+    {
+      "hash": "sha256-xHQHL4MkwddimRizt4V4g\/FJTwfs7yowgjSbcwouk44=",
+      "url": "js\/videoComposer.js"
     },
     {
       "hash": "sha256-Yy5\/hBqRmmU2MJ1TKwP2aXoTO6+OjzrLmJIsC2Wy4H8=",
@@ -1013,11 +1041,11 @@
       "url": "lib\/bootstrap\/dist\/css\/bootstrap.rtl.min.css.map"
     },
     {
-      "hash": "sha256-Q7H+R\/LhJEYdc7tKE\/u0pDX\/4uXFllV0lS59Y0x2O5o=",
+      "hash": "sha256-QmlejKXjUmMsVAUaEcEByVeKLn4xRTrhs8V7lN0VLSE=",
       "url": "lib\/bootstrap\/dist\/js\/bootstrap.bundle.js"
     },
     {
-      "hash": "sha256-bh2MPERxpapO8puYMtsGsQnZEv7\/fRMSkKRWyofQn+Y=",
+      "hash": "sha256-npFsd5ZI0Rp0KU1N3yDEUFjCsRL91VwNx8UnSz\/BgR8=",
       "url": "lib\/bootstrap\/dist\/js\/bootstrap.bundle.js.map"
     },
     {
@@ -1025,15 +1053,15 @@
       "url": "lib\/bootstrap\/dist\/js\/bootstrap.bundle.min.js"
     },
     {
-      "hash": "sha256-P1zMFKuxc8hGAF1ol4FkFJKq0nytSNZ0Fxt27tJ5yLU=",
+      "hash": "sha256-ZSvVsEWvezs1\/ssReWWR1xfEeZsvE8ihubIWwx2w\/TE=",
       "url": "lib\/bootstrap\/dist\/js\/bootstrap.bundle.min.js.map"
     },
     {
-      "hash": "sha256-wbnN\/Vu4StYrh8yYLoq8XYs4+j3ELQG+\/W3c8TXRdV4=",
+      "hash": "sha256-M1vPGuQIo9QaSgLPNxUerdjcSgxxkqXR3tCyP5e5Bag=",
       "url": "lib\/bootstrap\/dist\/js\/bootstrap.esm.js"
     },
     {
-      "hash": "sha256-BdWcgt3+cDA103g\/rMPhMinFBr0vrsDpwDfw9vdRFHM=",
+      "hash": "sha256-le1cotWcn2ukxnsiQfiIiOyXgiJ5tkU+n3h9jXOL9Iw=",
       "url": "lib\/bootstrap\/dist\/js\/bootstrap.esm.js.map"
     },
     {
@@ -1041,15 +1069,15 @@
       "url": "lib\/bootstrap\/dist\/js\/bootstrap.esm.min.js"
     },
     {
-      "hash": "sha256-wFTGfK2PR1T31rRzxwCZplpawXOGDKZRLu\/p97yoShU=",
+      "hash": "sha256-nszB8Biy8B33ETDWCvSvsPpitSIJkUVxqTyXWUFNks0=",
       "url": "lib\/bootstrap\/dist\/js\/bootstrap.esm.min.js.map"
     },
     {
-      "hash": "sha256-452+1O9+BQmxzjH+xjGwrOkwrJqtWvGZX6KhGN2vJr8=",
+      "hash": "sha256-qii1wtU+aLhu5nHmux7l\/7Oq8iQACsCKySXPdUkGDj8=",
       "url": "lib\/bootstrap\/dist\/js\/bootstrap.js"
     },
     {
-      "hash": "sha256-mz57hS1A5Wx7j\/T8fCuVMbB4ViRy++SoOhqrOCDzflQ=",
+      "hash": "sha256-39bMdxISKiqYtSoVkmKFw\/IBfb8CdAfu34kfnIr3WLw=",
       "url": "lib\/bootstrap\/dist\/js\/bootstrap.js.map"
     },
     {
@@ -1057,8 +1085,28 @@
       "url": "lib\/bootstrap\/dist\/js\/bootstrap.min.js"
     },
     {
-      "hash": "sha256-EkoixIbNqUq5rWlahR\/0Y5esnEvK3NJKYlHrnro0VIU=",
+      "hash": "sha256-OCasFgGN5SJf9\/xiJGVb5+EeNFzriDtvvKhaoeTTI\/s=",
       "url": "lib\/bootstrap\/dist\/js\/bootstrap.min.js.map"
+    },
+    {
+      "hash": "sha256-5xgyWpgYFAScPxgVZeszbT4CnEpvEIkV4Nhmfy1rRUw=",
+      "url": "lib\/ffmpeg\/814.ffmpeg.js"
+    },
+    {
+      "hash": "sha256-o0hzlksPYq7FFrrHXjqpCG7DU11NB\/AmmqlOp0i2y3E=",
+      "url": "lib\/ffmpeg\/ffmpeg-core.js"
+    },
+    {
+      "hash": "sha256-I5Dvp\/tm5+QtuuFUJ1caX\/yWuClICQTDD0cfCniWf2E=",
+      "url": "lib\/ffmpeg\/ffmpeg-core.wasm"
+    },
+    {
+      "hash": "sha256-u41Hn3qUFXg4+pTbjOM2Sx72REclFt4vdbVwXI+g9Ig=",
+      "url": "lib\/ffmpeg\/ffmpeg.js"
+    },
+    {
+      "hash": "sha256-vUdYTV10glyJYZX16rdeMuI3SWnTKJ7sTPxrpmHU+\/E=",
+      "url": "lib\/ffmpeg\/index.js"
     },
     {
       "hash": "sha256-QZd\/pKPFw\/kFJVXLeTaO3VwYCUXWWwjeWsbjObl1vCE=",
@@ -1069,5 +1117,5 @@
       "url": "sample-data\/weather.json"
     }
   ],
-  "version": "I5jv0kyl"
+  "version": "EQ7Kj73d"
 };
