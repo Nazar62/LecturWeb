@@ -37,8 +37,8 @@
       "url": "_framework\/FFmpegBlazor.axv6ltb623.wasm"
     },
     {
-      "hash": "sha256-OfZZ3xUgMWKRHxnUyejYFmgbIxSzJuuYtIyjelDLSmM=",
-      "url": "_framework\/Lectur.vmhuderu81.wasm"
+      "hash": "sha256-OO3RqZK0yHGmMP4ZnWk2zGSxU2gWvgQbl1vp3mIkaz0=",
+      "url": "_framework\/Lectur.gqdd85l4xj.wasm"
     },
     {
       "hash": "sha256-oTpMcq6\/gLYfpcpvvkjbcsRcdIZGZzyngaTCa7SJ4Ks=",
@@ -837,7 +837,7 @@
       "url": "_framework\/WindowsBase.ahs9krftg4.wasm"
     },
     {
-      "hash": "sha256-PG7S8m7gUiVKHruBVgdlu7U8yvs7f0YcDujHQl6+Cz0=",
+      "hash": "sha256-0Z8k2ERLROY4ud82q8z2t3KBpYJZluiZ+YGT8yFBT4U=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -1117,5 +1117,5 @@
       "url": "sample-data\/weather.json"
     }
   ],
-  "version": "uE\/4tc9o"
+  "version": "hBlLI+QD"
 };
