@@ -72,6 +72,12 @@ details {
     background-color: var(--theme-color-oposite-50);
     width: 27dvw;
 }
+.open-ai-conv {
+    display: none;
+}
+.btn-close {
+    display: none;
+}
 .ai-input {
     position: relative;
     display: flex;
@@ -215,6 +221,16 @@ details {
     text-decoration: none;
     color: var(--font-color);
 }
+.list-item-a.notOverflow {
+    max-width: calc(100% - 15rem);
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.list .list-item.notOverflow {
+    
+}
 .list .list-item {
     background-color: var(--theme-color-oposite-30);
     padding: 0.5rem;
@@ -224,6 +240,7 @@ details {
     transition: 0.3s;
 }
 .list .list-item .edit {
+    width: 14rem;
     margin-top: -0.2rem;
     float: right;
     display: flex;
@@ -309,6 +326,7 @@ details {
     padding: 1.5rem;
     border-radius: 0.75rem;
     z-index: 101;
+    overflow: auto;
 }
 .popup-content p {
     overflow: auto;
@@ -521,20 +539,25 @@ input[type="radio"] {
         width: 70dvw;
         height: 35dvh;
     }
-    
+    .timeOfEdit {
+        visibility: hidden;
+        display: none;
+    }
     .ai-sidebar {
-        position: relative;
-        /*margin-left: -1.5rem;*/
-        margin-right: calc(calc(var(--bs-gutter-x) * .5 * -1) - 1.5rem);
-        margin-left: calc(calc(var(--bs-gutter-x) * .5 * -1) - 1.5rem);
-        margin-top: 1.5rem;
+        position: fixed;
+        transform: translateX(-100%);
+        top: 0;
+        right: 0;
         display: grid;
         grid-template-rows: 1fr auto;
-        right: 0;
-        top: 0;
         height: 100dvh;
         width: 100dvw;
-        background-color: var(--theme-color-oposite-50);
+        background-color: rgba(0,0,0, 0.7);
+        backdrop-filter: blur(1.5rem);
+        transition: 0.2s;
+    }
+    .ai-sidebar.open {
+        transform: translateX(0);
     }
     .ai-input {
         position: relative;
@@ -574,6 +597,26 @@ input[type="radio"] {
         border-radius: 0.5rem;
         color: white;
     }
+    .open-ai-conv {
+        position: fixed;
+        display: block;
+        bottom: 0;
+        right: 0;
+        margin: 2rem;
+        background-color: var(--accent-color);
+        color: var(--font-color);
+        width: 4rem;
+        height: 4rem;
+        border-radius: 5rem;
+        font-size: 2rem;
+        text-align: center;
+    }
+    .btn-close {
+        display: block;
+        margin: 0.5rem;
+        width: 2rem;
+        height: 2rem;
+    }
     .lesson .content {
         position: relative;
         padding: 1rem;
@@ -608,6 +651,12 @@ input[type="radio"] {
     }
     .take-test .content{
         width: 75dvw;
+    }
+    .list-item-a.notOverflow {
+        max-width: calc(100% - 6rem);
+    }
+    .list .list-item .edit {
+        width: 5rem;
     }
 }
 

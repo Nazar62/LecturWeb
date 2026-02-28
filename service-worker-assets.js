@@ -37,8 +37,12 @@
       "url": "_framework\/FFmpegBlazor.axv6ltb623.wasm"
     },
     {
-      "hash": "sha256-OO3RqZK0yHGmMP4ZnWk2zGSxU2gWvgQbl1vp3mIkaz0=",
-      "url": "_framework\/Lectur.gqdd85l4xj.wasm"
+      "hash": "sha256-vhZIdNLiwdQfz4T7yViH1Jg5xkyieY6waEJn4NtJdTM=",
+      "url": "_framework\/Lectur.Models.6uczn15ax7.wasm"
+    },
+    {
+      "hash": "sha256-xozLjAw9scPXZY3r20nPLzBf29KtpfKnmOlnPTolG3U=",
+      "url": "_framework\/Lectur.ac8s2uuow5.wasm"
     },
     {
       "hash": "sha256-oTpMcq6\/gLYfpcpvvkjbcsRcdIZGZzyngaTCa7SJ4Ks=",
@@ -181,8 +185,8 @@
       "url": "_framework\/Microsoft.Win32.Registry.79bs7l5oe6.wasm"
     },
     {
-      "hash": "sha256-GlXMWKvDs45M2pACoR3Y4Qh8mcrOZGljqmvJY+6JZ5s=",
-      "url": "_framework\/Newtonsoft.Json.qkbufwhni2.wasm"
+      "hash": "sha256-s8KVuknfxWl1cuDvQM\/OnpBfnpM1rxzvzq21S1cF36U=",
+      "url": "_framework\/Newtonsoft.Json.jcjjiqe038.wasm"
     },
     {
       "hash": "sha256-ZH9WBkypBV1hq5Vlzb712xYKkk9pGKf7UK4KtxuhRds=",
@@ -837,7 +841,7 @@
       "url": "_framework\/WindowsBase.ahs9krftg4.wasm"
     },
     {
-      "hash": "sha256-0Z8k2ERLROY4ud82q8z2t3KBpYJZluiZ+YGT8yFBT4U=",
+      "hash": "sha256-tbWt8ExJlvAdLvtqjbPojKM\/TfhgGZgklFEYhm2T\/vU=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -889,7 +893,7 @@
       "url": "appSettings.json"
     },
     {
-      "hash": "sha256-ozGyhoFYuXsUuMqEZAoWIWlOuxvMBz9ehHDlLWU5rpo=",
+      "hash": "sha256-Uji6gWa5X0S89tOpGFP9PO+xOBvKAO8LfHtpLuPiIVs=",
       "url": "css\/app.css"
     },
     {
@@ -1117,5 +1121,5 @@
       "url": "sample-data\/weather.json"
     }
   ],
-  "version": "hBlLI+QD"
+  "version": "734LSboA"
 };
