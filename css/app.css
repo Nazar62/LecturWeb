@@ -1,15 +1,34 @@
+/* ─── Light Theme (system default) ─── */
 :root {
-    --accent-color: #004b4b;
-    --accent-color-30: #004b4b4d;
-    --accent-color-input: #1D2439;
-    --font-color: #CECECE;
-    --theme-color-oposite-10: #0000001a;
-    --theme-color-oposite-30: #0000004d;
-    --theme-color-oposite-50: #00000080;
-    --theme-color-oposite-50-no-opacity: #131218;
-    --bg-color-light: #272530;
-    --bg-color-dark: #343e3d;
-    --secondary: #60746f;
+    --accent-color: #008080;            /* classic teal, quite punchy */
+    --accent-color-30: #0080804d;
+    --accent-color-input: #e8edf5;
+    --font-color: #2a2a2a;
+    --font-color-button: #f5f4fa;
+    --theme-color-oposite-10: #00000012;  /* was #ffffff1a */
+    --theme-color-oposite-30: #0000002e;  /* was #ffffff4d */
+    --theme-color-oposite-50: #00000050;  /* was #ffffff80 */
+    --theme-color-oposite-50-no-opacity: #d0d0d8;
+    --bg-color-light: #f5f4fa;
+    --bg-color-dark: #e8edec;
+    --secondary: #4a6b66;
+}
+
+/* ─── Dark Theme (auto, matches device) ─── */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --accent-color: #004b4b;
+        --accent-color-30: #004b4b4d;
+        --accent-color-input: #1D2439;
+        --font-color: #CECECE;
+        --theme-color-oposite-10: #0000001a;
+        --theme-color-oposite-30: #0000004d;
+        --theme-color-oposite-50: #00000080;
+        --theme-color-oposite-50-no-opacity: #131218;
+        --bg-color-light: #1d2439;
+        --bg-color-dark: #343e3d;
+        --secondary: #60746f;
+    }
 }
 
 .lesson .content {
@@ -87,7 +106,7 @@ details {
 .ai-input input {
     background-color: var(--accent-color-input);
     width: 20dvw;
-    color: #CECECE;
+    color: var(--font-color);
     outline: none;
     border: none;
     border-radius: 1rem;
@@ -198,7 +217,7 @@ details {
     display: block;
     margin: 0 auto;
     margin-top: 0.8rem;
-    background-color: #004b4b;
+    background-color: var(--accent-color);
 }
 .make-lesson button[disabled] {
     background-color: gray;
@@ -569,7 +588,7 @@ input[type="radio"] {
     .ai-input input {
         background-color: var(--accent-color-input);
         width: 70dvw;
-        color: #CECECE;
+        color: var(--font-color);
         outline: none;
         border: none;
         border-radius: 1rem;
@@ -672,7 +691,7 @@ html, body {
 input {
     background-color: var(--theme-color-oposite-30);
     width: 20dvw;
-    color: #CECECE;
+    color: var(--font-color);
     outline: none;
     border: none;
     border-radius: 1rem;
@@ -681,7 +700,7 @@ input {
 button {
     background-color: var(--theme-color-oposite-30);
     border: none;
-    color: var(--font-color);
+    color: var(--font-color-button);
     padding: 0.5rem;
     border-radius: 1rem;
     transition: 0.3s;
