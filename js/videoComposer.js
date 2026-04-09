@@ -209,3 +209,4 @@ window.videoComposer = {
         return new Blob([data.buffer], { type: 'video/mp4' });
     }
 };
+window.blobToBytes=b=>fetch(b).then(r=>r.arrayBuffer()).then(ab=>Array.from(new Uint8Array(ab)));
