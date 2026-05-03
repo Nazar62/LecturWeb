@@ -37,12 +37,12 @@
       "url": "_framework\/FFmpegBlazor.axv6ltb623.wasm"
     },
     {
-      "hash": "sha256-YVFBTBY0T7rioWdfG6CsQlATZp2pxkwKSGJzPLB6GxU=",
-      "url": "_framework\/Lectur.Models.zf6g2ezbvs.wasm"
+      "hash": "sha256-CiAPyICNhcLE6doLJt4123suep23nno2idHpXByep9Q=",
+      "url": "_framework\/Lectur.Models.qbxhtsb91n.wasm"
     },
     {
-      "hash": "sha256-SKRGpEq2CTa2FKShMuUAfHPNULk+f4QT5BKhOcztVQc=",
-      "url": "_framework\/Lectur.wm8k7r8rrt.wasm"
+      "hash": "sha256-y0oOZHk0KnVlg1NcA7gJd2RZiKkArI\/U310FzZz7DqQ=",
+      "url": "_framework\/Lectur.zya1911cai.wasm"
     },
     {
       "hash": "sha256-oTpMcq6\/gLYfpcpvvkjbcsRcdIZGZzyngaTCa7SJ4Ks=",
@@ -841,7 +841,7 @@
       "url": "_framework\/WindowsBase.ahs9krftg4.wasm"
     },
     {
-      "hash": "sha256-z9tMlDQ3Pt12Q7ph57n0e+5uq+vGdYVuQWwUWcQsz0E=",
+      "hash": "sha256-KE1eM9KEYUN\/Na0cmihQh1nvAFxQfpp4h7kjaMCWB\/c=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -893,7 +893,7 @@
       "url": "appSettings.json"
     },
     {
-      "hash": "sha256-CcvnNNFYTm1b\/JgieoZ0hyr0HQjvYfqve2bHLhTSppA=",
+      "hash": "sha256-z43ZhpDOtjia6XsC3D5u2DbqMKfC4sy0AyfkxJDib\/k=",
       "url": "css\/app.css"
     },
     {
@@ -909,7 +909,7 @@
       "url": "icon-512.png"
     },
     {
-      "hash": "sha256-KygIF1FgZn3WH\/10SxaE0PMlj8QpjIjT++jOyt\/s6W0=",
+      "hash": "sha256-EKeB3UtDdRYcMcAaR7lbUND3siSBMdK83GXpXuKfUAQ=",
       "url": "index.html"
     },
     {
@@ -921,7 +921,15 @@
       "url": "js\/pdfExport.js"
     },
     {
-      "hash": "sha256-l23A3aFozQEYbMbs80Ltv9NzjgFTJDluLVi\/X\/IIwrk=",
+      "hash": "sha256-o49lyV37v3OCV+0F7bKdHvrPSnQeeJlCQYdAcuOlUHw=",
+      "url": "js\/pdfToImages.js"
+    },
+    {
+      "hash": "sha256-6Pbm9377qzSTIhmsh\/Br8Qejlj3\/DlRmYnuZfqrAmvs=",
+      "url": "js\/transitionWorker.js"
+    },
+    {
+      "hash": "sha256-yJ79BicKFIW7Yf7vOFdm+o1mFt83RQ6E2pmCXuExFX8=",
       "url": "js\/videoComposer.js"
     },
     {
@@ -1129,5 +1137,5 @@
       "url": "sample-data\/weather.json"
     }
   ],
-  "version": "5k0IPl3l"
+  "version": "TINVCU\/q"
 };

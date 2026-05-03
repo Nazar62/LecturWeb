@@ -51,21 +51,48 @@
     <script>navigator.serviceWorker.register('service-worker.js');</script>
     <script>
         var googlePickerInterop = {
-            // Function to be called from C# to load the Google Picker
-            loadPicker: function (accessToken, developerKey, appId) {
-                return new Promise((resolve, reject) => {
-                    if (typeof google === 'undefined' || typeof google.picker === 'undefined') {
-                        reject("Google Picker API not loaded.");
+            // Loads the picker library if not already loaded, then resolves
+            _ensurePickerLoaded: function () {
+                return new Promise((resolve) => {
+                    if (typeof google !== 'undefined' && typeof google.picker !== 'undefined') {
+                        resolve(); // Already loaded
                         return;
                     }
+                    if (typeof gapi === 'undefined') {
+                        // gapi not ready yet — poll briefly
+                        let attempts = 0;
+                        const interval = setInterval(() => {
+                            attempts++;
+                            if (typeof gapi !== 'undefined') {
+                                clearInterval(interval);
+                                gapi.load('picker', resolve);
+                            } else if (attempts > 50) { // 5 second timeout
+                                clearInterval(interval);
+                                resolve(); // will fail gracefully in loadPicker
+                            }
+                        }, 100);
+                    } else {
+                        gapi.load('picker', resolve);
+                    }
+                });
+            },
 
+            // Function to be called from C# to load the Google Picker
+            loadPicker: async function (accessToken, developerKey, appId) {
+                // Always wait for picker lib before building
+                await googlePickerInterop._ensurePickerLoaded();
+
+                if (typeof google === 'undefined' || typeof google.picker === 'undefined') {
+                    throw new Error("Google Picker API failed to load. Check your internet connection.");
+                }
+
+                return new Promise((resolve, reject) => {
                     var view = new google.picker.View(google.picker.ViewId.DOCS);
-                    view.setMimeTypes("application/pdf,application/vnd.google-apps.presentation,application/vnd.openxmlformats-officedocument.presentationml.presentation"); // Example: Filter for images and PDFs
+                    view.setMimeTypes("application/pdf,application/vnd.google-apps.presentation,application/vnd.openxmlformats-officedocument.presentationml.presentation");
 
                     var picker = new google.picker.PickerBuilder()
-                        .setAppId(appId) // Your Cloud Project Number (from Google Cloud Console)
+                        .setAppId(appId)
                         .setOAuthToken(accessToken)
-                        .setDeveloperKey(developerKey) // Optional, but good practice
                         .addView(view)
                         .setCallback(function (data) {
                             if (data.action == google.picker.Action.PICKED) {
@@ -74,7 +101,6 @@
                                     id: doc.id,
                                     name: doc.name,
                                     url: doc.url,
-                                    // Add other relevant properties
                                 });
                             } else if (data.action == google.picker.Action.CANCEL) {
                                 resolve(null); // User cancelled
@@ -108,6 +134,8 @@
     <script src="js/videoComposer.js?v=5"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/pdfmake.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/vfs_fonts.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+    <script src="js/pdfToImages.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
     <script src="js/pdfExport.js"></script>
 </body>

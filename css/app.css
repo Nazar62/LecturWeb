@@ -534,6 +534,35 @@ input[type="radio"] {
 .take-test .content{
     width: 50dvw;
 }
+.picker-label { font-size: 13px; font-weight: 500; margin: 0 0 8px; }
+
+.swatches-row {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    background: #1e1e1e;
+    border-radius: 10px;
+    padding: 10px 14px;
+}
+
+.swatch {
+    width: 22px;
+    height: 22px;
+    border-radius: 4px;
+    border: 2px solid transparent;
+    outline: none;
+    cursor: pointer;
+    padding: 0;
+    flex-shrink: 0;
+    transition: transform 0.1s;
+}
+
+.swatch:hover { transform: scale(1.15); }
+
+.swatch.selected {
+    border-color: #fff;
+    outline-offset: 1px;
+}
 
 
 
