@@ -1,13 +1,13 @@
 {
   "mainAssemblyName": "Lectur",
   "resources": {
-    "hash": "sha256-H4uE3DUYmTd/XjP41Q1t20d6XmP5OXCIMWTblqCxlG4=",
+    "hash": "sha256-CAr2mVIDDoqL10x0apCsjQF8VHmZ64uxuCywRxvgs+w=",
     "fingerprinting": {
       "Blazored.LocalStorage.12n6dz54qr.wasm": "Blazored.LocalStorage.wasm",
       "BouncyCastle.Cryptography.4gsqqg4tak.wasm": "BouncyCastle.Cryptography.wasm",
       "FFmpegBlazor.axv6ltb623.wasm": "FFmpegBlazor.wasm",
-      "Lectur.Models.qbxhtsb91n.wasm": "Lectur.Models.wasm",
-      "Lectur.zya1911cai.wasm": "Lectur.wasm",
+      "Lectur.Models.74qkyewcc4.wasm": "Lectur.Models.wasm",
+      "Lectur.y2j6hgi1sf.wasm": "Lectur.wasm",
       "Markdig.57ujnljo5y.wasm": "Markdig.wasm",
       "Microsoft.AspNetCore.Authorization.n7we7nbch1.wasm": "Microsoft.AspNetCore.Authorization.wasm",
       "Microsoft.AspNetCore.Components.Authorization.5ja82b9mxc.wasm": "Microsoft.AspNetCore.Components.Authorization.wasm",
@@ -240,8 +240,8 @@
       "Blazored.LocalStorage.12n6dz54qr.wasm": "sha256-OaMAAd5n7ORfyur5e3QIyEVKJ76MKIvwbg7/icnnYcU=",
       "BouncyCastle.Cryptography.4gsqqg4tak.wasm": "sha256-fNNkhoF1EtOBvzedd32l0piPt54gxoGNl/pAhfr3ze4=",
       "FFmpegBlazor.axv6ltb623.wasm": "sha256-4h+Tp2dqv+Xh7QZ2AbhsyckgsYoMJBq7Tvvi0dTt3hI=",
-      "Lectur.Models.qbxhtsb91n.wasm": "sha256-CiAPyICNhcLE6doLJt4123suep23nno2idHpXByep9Q=",
-      "Lectur.zya1911cai.wasm": "sha256-y0oOZHk0KnVlg1NcA7gJd2RZiKkArI/U310FzZz7DqQ=",
+      "Lectur.Models.74qkyewcc4.wasm": "sha256-NxuU1BFllggzehzewjlhlB5MsZyyMeaOfSLg1tCdYtk=",
+      "Lectur.y2j6hgi1sf.wasm": "sha256-5gi42CG9FwSCSfFy5QiIYapNX8Cl4Vv6+um2vJ7s/YI=",
       "Markdig.57ujnljo5y.wasm": "sha256-oTpMcq6/gLYfpcpvvkjbcsRcdIZGZzyngaTCa7SJ4Ks=",
       "Microsoft.AspNetCore.Authorization.n7we7nbch1.wasm": "sha256-bZI3l2tb4nrkmIrNiXtsJx0hK5NmMKjbxScyGppJRRc=",
       "Microsoft.AspNetCore.Components.Authorization.5ja82b9mxc.wasm": "sha256-r7rvOIT/7U2j/hWzOguOLut5faxH/7SHPfhDI2qDyfU=",
